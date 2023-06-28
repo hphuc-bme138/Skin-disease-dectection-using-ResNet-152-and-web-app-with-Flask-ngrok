@@ -1,0 +1,37 @@
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.page-container {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 160px;
+}
+
+.header-container {
+  width: 100vw;
+  height: 160px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.body-container {
+  min-height: calc(100% - 70px);
+  padding: 20px 0;
+}
+
+.footer-container {
+  height: 70px;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+p {
+  margin-bottom: 0;
+}
